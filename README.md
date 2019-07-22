@@ -6,7 +6,7 @@
 vue routerとvuexを選ぶ  
 - vue.config.jsの追加  
 `module.exports = {publicPath: '/hoge/'}`
-- .htaccessの追加
+- .htaccessの追加  
 `<IfModule mod_rewrite.c>`  
 `  RewriteEngine On`  
 `  RewriteBase /`  
