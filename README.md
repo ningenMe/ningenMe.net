@@ -1,29 +1,18 @@
-# ningenme.net.ui
+# ningenMe.net.UI
 
-## Project setup
-```
-npm install
-```
+## 新規プロジェクト  
+- 初期化  
+`vue create hoge`  
+vue routerとvuexを選ぶ  
+- vue.config.jsの追加  
+`module.exports = {publicPath: '/hoge/'}`
+- .htaccessの追加
+`<IfModule mod_rewrite.c>`  
+`  RewriteEngine On`  
+`  RewriteBase /`  
+`  RewriteRule ^index\.html$ - [L]`  
+`  RewriteCond %{REQUEST_FILENAME} !-f`  
+`  RewriteCond %{REQUEST_FILENAME} !-d`  
+`  RewriteRule . /hoge/ [L]`  
+`</IfModule>`  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
