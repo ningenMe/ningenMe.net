@@ -14,10 +14,7 @@
         <span class="mr-2">Latest Release</span>
       </v-btn>
     </v-toolbar>
-
-    <v-content>
-      <HelloWorld/>
-    </v-content>
+    <router-view/>
   </v-app>
 </template>
 
