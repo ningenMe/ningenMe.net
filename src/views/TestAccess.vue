@@ -17,7 +17,9 @@ export default {
   },
   mounted () {
     axios
-      .get('http://127.0.0.1:8000/access?name=text')
+      .post('http://127.0.0.1:8000/access',{
+        "name"  : "hoge",
+       })
       .then(response => (this.responseBody = response.data))
   }
 }
