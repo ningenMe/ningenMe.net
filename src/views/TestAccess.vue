@@ -9,6 +9,7 @@
 
 <script>
 import axios from 'axios';
+
 export default {
   data () {
     return {
@@ -16,11 +17,10 @@ export default {
     }
   },
   mounted () {
-    axios
-      .post('http://127.0.0.1:8000/access',{
-        "name"  : "hoge",
-       })
-      .then(response => (this.responseBody = response.data))
+    axios.post('http://127.0.0.1:8000/access',{
+      'name':'hoge'
+    })
+    .then(response => (this.responseBody = response.data))
   }
 }
 </script>
