@@ -19,7 +19,7 @@ export default {
     }
   },
   mounted () {
-    axios.post('http://18.182.85.26/home.API/access',{
+    axios.post('http://ningenme.net/home.API/access',{
       'name':'hoge'
     })
     .then(response => (this.responseBody = response.data))
