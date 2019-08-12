@@ -9,6 +9,8 @@
 
 <script>
 import axios from 'axios';
+axios.defaults.xsrfHeaderName  = 'X-CSRF-Token'
+axios.defaults.withCredentials = true
 
 export default {
   data () {
@@ -17,7 +19,7 @@ export default {
     }
   },
   mounted () {
-    axios.post('http://127.0.0.1:8000/access',{
+    axios.post('http://18.182.85.26/home.API/access',{
       'name':'hoge'
     })
     .then(response => (this.responseBody = response.data))

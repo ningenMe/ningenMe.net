@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 import TestAccess from './views/TestAccess.vue'
 import Root from './views/Root.vue'
 
@@ -18,11 +17,6 @@ export default new Router({
             path: '/index.html',
             name: 'index.html',
             component: Root
-        },
-        {
-            path: '/home',
-            name: 'home',
-            component: Home
         },
         {
             path: '/testaccess',
