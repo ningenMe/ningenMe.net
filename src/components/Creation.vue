@@ -8,7 +8,7 @@
         <div style="display:flex;">
             <div class="font-weight-bold font-italic" style="margin-right:auto;">
             {{e.type}} : 
-            <a href="e.link" target="_blank">{{e.name}} </a>
+            <a v-bind:href="e.link" target="_blank">{{e.name}} </a>
             </div>
         </div>
         </div>              
