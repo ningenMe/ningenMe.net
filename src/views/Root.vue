@@ -54,7 +54,7 @@
       Motivation,Profile,Creation,Activity,History,Programming
     },
     mounted () {
-      axios.post('https://ningenme.net/home.API/access',{
+      axios.post('https://ningenme.net/home.api/access',{
         'name':'home'
       })
       .then(response => (this.responseBody = response.data))
