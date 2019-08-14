@@ -24,8 +24,8 @@
         creation: [
           {
             type: 'Apps',
-            name: 'AtCoder偏差値くん(refactoring now ...)',
-            link: '#'
+            name: 'AtCoder偏差値くん',
+            link: 'http://52.192.157.103/hensachi/'
           },
           {
             type: 'Compro',
