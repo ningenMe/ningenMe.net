@@ -30,7 +30,7 @@
           {
             type: 'Compro',
             name: '精進記録(refactoring now ...)',
-            link: '#'
+            link: 'https://ningenme.net/compro_category'
           },
           {
             type: 'Paper',
