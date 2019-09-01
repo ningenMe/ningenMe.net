@@ -23,20 +23,31 @@
       return {
         creation: [
           {
-            type: 'Apps',
+            type: 'Apps.',
             name: 'AtCoder偏差値くん',
             link: 'http://52.192.157.103/hensachi/'
           },
           {
-            type: 'Compro',
-            name: '精進記録(refactoring now ...)',
+            type: 'Apps.',
+            name: '精進記録',
             link: 'https://ningenme.net/compro_category'
           },
           {
+            type: 'Problem',
+            name: '[yukicoder] All Tree Path',
+            link: 'https://yukicoder.me/problems/no/872'
+          },
+          {
             type: 'Paper',
-            name: 'Phys.Rev.Appl.10,034063',
+            name: 'Phys.Rev.Appl. 10, 034063(2018)',
             link: 'https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.10.034063'
-          }],
+          },
+          {
+            type: 'Paper',
+            name: 'Jpn.J.Appl.Phys. 58, 070901(2019)',
+            link: 'https://iopscience.iop.org/article/10.7567/1347-4065/ab2406/meta'
+          }
+          ],
       }
     }
   }

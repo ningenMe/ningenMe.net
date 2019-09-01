@@ -14,10 +14,10 @@
           <a v-for="(e,i) in framework" v-bind:key="i">
             {{e}},
           </a>
-          <br />library: 
+          <!-- <br />library: 
           <a v-for="(e,i) in library" v-bind:key="i">
             {{e}},
-          </a>
+          </a> -->
         </div>
       </div>            
     </v-card-text>
