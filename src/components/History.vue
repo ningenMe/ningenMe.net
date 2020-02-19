@@ -22,7 +22,7 @@
         history: [
           {
             year: '2019-20XX',
-            text: 'バックエンドのWebエンジニア'
+            text: 'Yahoo! Japan Software Engineer'
           },
           {
             year: '2017-2019',

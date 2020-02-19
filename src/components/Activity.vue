@@ -8,6 +8,7 @@
         <div style="display:flex;">
           <div class="font-weight-bold" style="margin-right:auto;">
             {{e.year}} : {{e.text}}
+            <a v-bind:href="e.link" target="_blank" v-if="e.link != null">#</a>
           </div>
         </div>
       </div>              
@@ -23,11 +24,16 @@
         activity: [
           {
             year: '2019',
+            text: '第一回アルゴリズム実技検定　エキスパート取得'
+          },
+          {
+            year: '2019',
             text: '大阪大学基礎工学研究科専攻賞受賞'
           },
           {
             year: '2019',
-            text: '全国統一プログラミング王本戦出場'
+            text: '全国統一プログラミング王本戦出場',
+            link: 'https://atcoder.jp/contests/nikkei2019-final',
           },
           {
             year: '2018',
@@ -35,7 +41,8 @@
           },
           {
             year: '2018',
-            text: '春季応用物理学会英語講演奨励賞受賞'
+            text: '春季応用物理学会英語講演奨励賞受賞',
+            link: 'https://annex.jsap.or.jp/spintro/stage1/schedules/sche.html',
           }
         ],
       }

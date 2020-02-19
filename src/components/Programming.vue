@@ -30,7 +30,7 @@
     data () {
       return {
         language: [
-          'C++','Python','Java','PHP','JavaScript'
+          'C++','Python','Java','PHP','JavaScript','Go'
         ],
         framework: [
           'Laravel','Fuel','Spring Boot','Vue'
